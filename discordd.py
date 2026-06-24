@@ -2,7 +2,7 @@ import discord
 from discord import app_commands
 import random
 TOKEN ="your_discord_token_here"
-GUILD_ID=1246922257771790519
+GUILD_ID="server guild id"
 intents=discord.Intents.default()
 intents.message_content=True
 intents.members=True
